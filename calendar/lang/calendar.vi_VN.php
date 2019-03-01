@@ -1,0 +1,88 @@
+<?php 
+# vi_VN translation for
+# PHP-Calendar, DatePicker Calendar class: http://www.triconsole.com/php/calendar_datepicker.php
+# Version: 3.69
+# Language: Vietnamese / Ti?ng Vi?t
+# Translator: Marshall <hellomarshal_lookatme@yahoo.com.vn>
+# Last file update: 19.05.2013
+
+// Class strings localization
+define("L_DAYC", "Ngày");
+define("L_MONTHC", "Tháng");
+define("L_YEARC", "Nam");
+define("L_TODAY", "Hôm nay");
+define("L_PREV", "Tru?c");
+define("L_NEXT", "Ti?p theo");
+define("L_REF_CAL", "L?ch làm m?i...");
+define("L_CHK_VAL", "Ki?m tra giá tr?");
+define("L_SEL_LANG", "L?a ch?n ngôn ng?");
+define("L_SEL_ICON", "L?a ch?n");
+define("L_SEL_DATE", "L?a ch?n ngày");
+define("L_ERR_SEL", "S? l?a ch?n c?a b?n không h?p l?");
+define("L_NOT_ALLOWED", "Ngày không du?c ch?p nh?n d? ch?n");
+define("L_DATE_BEFORE", "Làm on ch?n ngày tru?c %s");
+define("L_DATE_AFTER", "Làm on ch?n ngày sau %s");
+define("L_DATE_BETWEEN", "Làm on ch?n ngày gi?a\\n%s và %s");
+define("L_WEEK_HDR", ""); // Optional Short Name for the column header showing the current Week number (W or CW in English - max 2 letters)
+define("L_UNSET", "B? l?a ch?n");
+define("L_CLOSE", "Ðóng l?i");
+define("L_TRANAME", "Marshall");
+
+// Set the first day of the week in your language (0 for Sunday, 1 for Monday)
+define("FIRST_DAY", "1");
+
+// Months Long Names
+define("L_JAN", "Tháng M?t");
+define("L_FEB", "Tháng Hai");
+define("L_MAR", "Tháng Ba");
+define("L_APR", "Tháng Tu");
+define("L_MAY", "Tháng Nam");
+define("L_JUN", "Tháng Sáu");
+define("L_JUL", "Tháng B?y");
+define("L_AUG", "Tháng Tám");
+define("L_SEP", "Tháng Chín");
+define("L_OCT", "Tháng Mu?i");
+define("L_NOV", "Tháng Mu?i m?t");
+define("L_DEC", "Tháng Ch?p"); //Tháng Mu?i hai
+// Months Short Names
+define("L_S_JAN", "Tháng 1");
+define("L_S_FEB", "Tháng 2");
+define("L_S_MAR", "Tháng 3");
+define("L_S_APR", "Tháng 4");
+define("L_S_MAY", "Tháng 5");
+define("L_S_JUN", "Tháng 6");
+define("L_S_JUL", "Tháng 7");
+define("L_S_AUG", "Tháng 8");
+define("L_S_SEP", "Tháng 9");
+define("L_S_OCT", "Tháng 10");
+define("L_S_NOV", "Tháng 11");
+define("L_S_DEC", "Tháng 12");
+// Week days Long Names
+define("L_MON", "Th? Hai");
+define("L_TUE", "Th? Ba");
+define("L_WED", "Th? Tu");
+define("L_THU", "Th? Nam");
+define("L_FRI", "Th? Sáu");
+define("L_SAT", "Th? B?y");
+define("L_SUN", "Ch? Nh?t");
+// Week days Short Names
+define("L_S_MON", "Hai");
+define("L_S_TUE", "Ba");
+define("L_S_WED", "Tu");
+define("L_S_THU", "Nam");
+define("L_S_FRI", "Sáu");
+define("L_S_SAT", "B?y");
+define("L_S_SUN", "CN");
+
+// Windows encoding
+define("WIN_DEFAULT", "windows-1258");
+define("L_CAL_FORMAT", "%d %B %Y");
+if(!defined("L_LANG") || L_LANG == "L_LANG") define("L_LANG", "vi_VN");
+
+// Set the VN specific date/time format
+if (stristr(PHP_OS,"win")) {
+setlocale(LC_ALL, "vietnamese", "vietnamese.ISO-8859-1", "viet nam.ISO-8859-1", "viet nam");
+} else {
+setlocale(LC_ALL, "vi_VN.ISO-8859-1", "vnd_vnd.ISO-8859-1", "vie_vie.ISO-8859-1");
+}
+?>

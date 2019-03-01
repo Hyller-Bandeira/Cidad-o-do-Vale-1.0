@@ -1,0 +1,37 @@
+table { border-spacing: 0; }
+
+#metadados tr{
+    height: 25px !important;
+}
+
+.tdMDfixo
+{
+	font-weight:bold;
+	width: 20%;
+	white-space:normal;
+	text-align:center;
+}
+
+.tdMDdinamico
+{
+	white-space:normal;
+	text-align:justify;
+	padding-left: 15px;
+	word-wrap:break-word;
+}
+
+.tdMDfixo2
+{
+	font-weight:bold;
+	width: 30%;
+	white-space:normal;
+	text-align:center;
+}
+
+.tdMDdinamico2
+{
+	white-space:normal;
+	text-align:justify;
+	padding-left: 15px;
+	word-wrap:break-word;
+}

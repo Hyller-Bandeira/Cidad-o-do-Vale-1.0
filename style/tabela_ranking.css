@@ -1,0 +1,5 @@
+/* Datagrid Table */
+table.tbl { border: 2px solid #c3daf9; font-size: 1.2em; clear: both;  margin: 0 auto; }
+td.tbl-header { text-align: center; padding: 3px; font-weight: bold; border-bottom: 2px solid #c3daf9; }
+td.tbl-row-num { width:50px; text-align: center; }
+td.tbl-cell { width:200px; max-width:400px; overflow: auto;}

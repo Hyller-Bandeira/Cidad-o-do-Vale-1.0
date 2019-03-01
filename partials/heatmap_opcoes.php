@@ -1,0 +1,9 @@
+<div id='opcoes-heatmap' class="row" style='display: none;margin-bottom: 10px;'>
+    <button type="button" class="btn btn-warning active" style="margin: 0px 7px; background-color:rgb(247, 68, 69);" onclick="changeGradient(); ga('send', 'event', 'Clique', 'Botão', 'Mapa de Calor - Alterar Cores');"><strong> <span class="glyphicon glyphicon-adjust"></span> Alterar Cores</strong></button>
+    <button type="button" class="btn btn-warning active" style="margin: 0px 7px; background-color:rgb(247, 68, 69);" onclick="changeRadiusAdd(); ga('send', 'event', 'Clique', 'Botão', 'Mapa de Calor - Aumentar Raio');"><strong> <span class="glyphicon glyphicon-plus-sign"></span> Aumentar Raio</strong></button>
+    <button type="button" class="btn btn-warning active" style="margin: 0px 7px; background-color:rgb(247, 68, 69);" onclick="changeRadiusSub(); ga('send', 'event', 'Clique', 'Botão', 'Mapa de Calor - Diminuir Raio');"><strong> <span class="glyphicon glyphicon-minus-sign"></span> Diminuir Raio</strong></button>
+    <button type="button" class="btn btn-warning active" style="margin: 0px 7px; background-color:rgb(247, 68, 69);" onclick="changeOpacity(); ga('send', 'event', 'Clique', 'Botão', 'Mapa de Calor - Transparência');"><strong> <span class="glyphicon glyphicon-modal-window"></span> Transparência</strong></button>
+</div>
+<div class="row">
+    <button id='liga-heatmap' type="button" class="btn btn-warning active" onclick="toggleHeatmap(); ga('send', 'event', 'Clique', 'Botão', 'Mapa de Calor - Exibir/Ocultar');"  style="background-color:rgb(247, 68, 69)"> <span class="glyphicon glyphicon-globe"></span><strong id="heatmap-on-off"> Exibir Mapa de Calor</strong></button>
+</div>

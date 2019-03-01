@@ -1,0 +1,53 @@
+table.centerforsomereason { border-spacing: 0; }
+
+#div_menu
+{
+	margin: 0 0 20px 0;
+    background: #f74445;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(rgb(247, 68, 69)),to(rgb(200, 25, 30)));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(rgb(247, 68, 69)),to(rgb(200, 25, 30)));	
+}
+.centro
+{
+	text-align: center;
+	vertical-align: middle;
+    font-size: 18px;
+}
+
+.button
+{
+	color: #FFFFFF;
+	font: bold 90% Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	padding: 9px 1%;
+	position: relative;
+	display: inline-block;
+	transition: border-color .220s;
+}
+
+.button:hover
+{
+	color: #fff;
+    border-color: #f75657;
+    background: #f75657;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#f98787),to(#f75657));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#f98787),to(#f75657));
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2) -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.button:active
+{
+	border-color: #FCA72D;
+	background: linear-gradient(to bottom, #FFCA81 40%, #FFCD86 70%);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.ativo
+{
+	font-size: 90%;
+	color: #FFF;
+	border-color: #FCA72D;
+	background: linear-gradient(to bottom, #FAC275 40%, #FFD598 70%);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
